@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (_req, res) => {
-    res.send('Welcome to my General Conference Quotes API! To learn more about it, go to https://github.com/brycetolman54/GenConfAPI);
+    res.send('Welcome to my General Conference Quotes API! To learn more about it, go to https://github.com/brycetolman54/GenConfAPI');
 })
 
 app.get('/random', (_req, res) => {
