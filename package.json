@@ -1,0 +1,16 @@
+{
+  "name": "brycetolman54.github.io",
+  "version": "1.0.0",
+  "description": "- [ ] I need to set everything up for vercel, learn how to do that.\r - [ ] I will have routes that I can take, for a year you want to draw from or a speaker. Maybe I will put topics some day\r - [ ] I need to move my index.html stuff to just be a response for a route\r - [ ] Update the read me so that it tells all that needs to be know, but after you have built everything\r - [ ] This is gonne be good!\r - [ ] Add a gitignore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

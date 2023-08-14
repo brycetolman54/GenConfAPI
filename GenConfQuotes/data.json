@@ -1,0 +1,56 @@
+{
+    "all": [
+        {
+            "id": 1,
+            "quote": {
+                "author": "Bryce",
+                "text": "Hey bud",
+                "reference": "me.com"
+            }
+        },
+        {
+            "id": 2,
+            "quote": {
+                "author": "Bryce",
+                "text": "Hey friend",
+                "reference": "me2.com"
+            }
+        },
+        {
+
+        }
+    ],
+    "speakers": [
+        {
+            "speaker": "Bryce",
+            "quotes": [
+                1,
+                2
+            ]
+        }
+    ],
+    "topics": [
+        {
+            "topic": "hope",
+            "quotes": [
+                1,
+                2
+            ]
+        }
+    ],
+    "years": [
+        {
+            "year": "1990",
+            "quotes": [
+                1,
+                2
+            ]
+        },
+        {
+            "year": "2002",
+            "quotes": [
+                1
+            ]
+        }
+    ]
+}
