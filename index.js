@@ -78,7 +78,7 @@ app.get('/topic/:topic', (req, res) => {
     // Get the id of the quote
     const quoteIndex = theTopic.quotes[randomInt];
     // Use the id to get the quote from the all array (you have to subtract 1 because the ids start at 0)
-    const theQuote = data.all[quoteIndex - 1];
+    const theQuote = data.all[quoteIndex - 1]; 
     // Send it off
     res.send(theQuote.quote);
     }
