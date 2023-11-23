@@ -10,6 +10,8 @@ const cors = require('cors');
 
 app.use(express.json());
 
+app.use(express.static('./index.html'));
+
 app.use(cors());
 
 app.get('/', (_req, res) => {
