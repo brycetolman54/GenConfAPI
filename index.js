@@ -10,7 +10,7 @@ const cors = require('cors');
 
 app.use(express.json());
 
-app.use(express.static('./index.html'));
+app.use(express.static('public'));
 
 app.use(cors());
 
